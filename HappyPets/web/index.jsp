@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>HappyPets</title>
+        <link href="css/index.css" rel="stylesheet" type="text/css">        
     </head>
     <body>
         <h1>Bienvenidos a Pet Stop</h1>
