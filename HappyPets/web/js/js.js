@@ -1,1 +1,1 @@
-Este el archivo js
+/*Este el archivo js*/
