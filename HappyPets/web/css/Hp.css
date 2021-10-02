@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box; 
+}
+
+#contenedor{
+    width: 1300px;
+    height: 1100px;
+    /* background-color: gray; */
+    margin: 0.3cm auto;
+    padding: 0;
+}
+
+#header{
+    height: 30%;
+    background-image: url('comida.jpg');
+    
+    width: 1280px;
+    color: white;    
+         
+    margin: 0.5em;
+    border-radius: 2em;
+
+}
+.conte {
+    text-align: center;
+}
+.conte a{
+    color: white;
+    text-decoration: none;
+    background-color: turquoise;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 10px;
+}   
+.conte p{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1em 0;
+} 
+
+
+#nav{
+    height: 5%;
+    /* background-color: rgb(245, 242, 236); */
+    margin: 0.5em;
+    border-radius: 2em;
+    color: rgb(201, 162, 162);
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+
+#contenido{
+    height: 48%;
+    
+    margin: 0.5em;        
+}
+
+#section{
+    height: 100%;
+    width: 25%;
+    background-color: gainsboro;
+    border-radius: 2em;
+    margin-left: 00.1cm;
+    float: left;
+}
+
+#aside{
+    height: 100%;
+    width: 73%;
+    background-color: rgb(243, 243, 240);
+    border-radius: 2em;
+    margin-right: 00.1cm;
+    float: right;
+}
+
+.articulo{
+    width: 97%;
+    height: 95%;
+    /* background-color: rgb(245, 238, 233); */
+    background-color: rgb(219, 230, 193);
+    margin: 0.5em;
+    border-radius: 2em;
+    float: left;
+}
+
+#footer{
+    height: 15%;
+    background-color: rgb(246, 247, 245);
+    margin: 0.5em;
+    border-radius: 2em;
+}
