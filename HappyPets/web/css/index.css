@@ -15,9 +15,11 @@
 #header{
     height: 30%;
     background-image: url('/img/comida.jpg'); 
+    background-repeat: no-repeat;
+    background-repeat: repeat; 
     
-    
-    width: 1280px;
+    height: 500px;
+    /* width: 1000px; */
     color: white;    
          
     margin: 0em;
@@ -97,38 +99,47 @@ a:visited{
     color: rgb(168, 216, 168);     
 }
 
-#aside{
+#aside{   
     
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-
     height: 100%;
     width: 78%;
-    background-color: rgb(241, 228, 228);
+    /* background-color: rgb(241, 228, 228); */
     border-radius: 2em;
-    margin-right: 00.1cm;
+    /* margin-right: 00.1cm;  */
     margin-left: 000.1cm;
     float: right;
 }
 
-.articulo{
-    width: 97%;
-    height: 95%;
-    /* background-color: rgb(245, 238, 233); */
-    background-color: rgb(219, 230, 193);
-    margin: 0.5em;
-    border-radius: 2em;
-    float: left;
+.redimension{
+    width: 330px;
+    height: 174px;
 }
 
-#footer{
-   
- 
-  
 
+#footer{ 
+    /* background-image: url('/img/huellas.png'); */
     height: 15%;
     background-color: rgb(214, 221, 202);
-    margin: 0.em;
+    margin: 0.5em;
     border-radius: 2em;
 }
+
+.social{
+    width: 15px;
+    position: relative;
+    top: 0.5em;
+    right: 0;
+}
+
+.social{
+    top: 2em;
+    height: 2px;
+    margin-left: 2cm;
+}
+
+.social{
+    height: 10px;
+    width: 10px;
+}
+
+
