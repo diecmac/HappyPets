@@ -44,7 +44,7 @@
 
 
 #nav{
-    background-image: url('huellas.png');
+    background-image: url('/img/huellas.png');
     height: 5%;
     font-size: 25px;
     /* background-color: rgb(245, 242, 236); */
@@ -62,7 +62,7 @@
 }
 
 #section{
-    background-image: url('ropa.jpg');
+    background-image: url('/img/ropa.jpg');
     background-repeat: no-repeat;
     height: 10px;
     width: 5px;  
@@ -87,9 +87,9 @@ ul.navbar{
     padding: 0.5em;
     border-right: 1.5em ;
 }   
-ul.navbar a{
-    text-decoration-line;
-}  
+/* ul.navbar a{ */
+    /* text-decoration-line; */
+/* }   */
 a:link{
     color: blue;
 }
